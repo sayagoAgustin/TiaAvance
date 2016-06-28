@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Inico</title>
+	<link rel="stylesheet" href="css/estiloIndex.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/scriptMio.js"></script>
+	<script>
+			$(document).ready(function(){
+			    $('section[data-type="parallax_section"]').each(function(){
+			        var $bgobj = $(this); // Variable para asignacion de objeto
+			        $(window).scroll(function() {
+			        	$window = $(window);
+			            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+			            // cordinadas del background
+			            var coords = '50% '+ yPos + 'px';
+			            // moviendo el background
+			            $bgobj.css({ backgroundPosition: coords });
+			        });
+			    });
+			});
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<a href="elmuseo.html"><li>El Museo</li></a>
+			<a href="indice.html"><li>Indice</li></a>
+			<a href="musicos.html"><li>Música</li></a>
+			</ul>
+			
+			<img id="logo" src="images/Banner/logo.png">
+			
+			<ul>
+				<a href="artistas/pintores.html"><li>Pitura</li></a>
+			<a href="literatura.html"><li>Literatura</li></a>
+			<a href="teatro25.html"><li>Teatro</li></a>
+			<a href="forum.html"><li>Forum</li></a>
+			</ul>
+		</nav>
+	</header>
+	<section id='banner'>
+		
+	</section>
+	
+	<section id="body">
+		
+		
+		<section id="secMusica" data-type="parallax_section" data-speed="10">
+			<article>
+				<div class="geek">
+				<h2>Musica</h2>
+				<p>
+					El folklore, con sus tradicionales chacareras, son parte del patrimonio cultural típico de la provincia. Aunque se puede disfrutar durante todo el año de la música en peñas o restaurantes, la época propicia es enero y febrero, cuando cada año se reeditan tradicionales festivales. El folklore esta sumamente arraigado en esta región, especialmente en Tucumán y Santiago del Estero, origen de muchos de los más destacados intérpretes y compositores de música popular del país. Es así como se encuentran en casi todas las localidades de la región sitios donde se pueden disfrutar zambas, vidalas, coplas y chacareras, abundando las peñas y festivales en las que se pueden deleitar con la participación tanto de reconocidos artistas como de jóvenes talentos. Instrumentos Típicos Los instrumentos autóctonos de esta región son el charango (instrumento de cuerda cuya caja es de caparazón de quirincho), el erke (instrumento de viento de origen quechua utilizado para la celebración del Corpus Christi en Salta y la Quebrada de Humauaca en Jujuy), la quena (flauta sin embocadura actualmente de caña que los indígenas construían con madera o tierra cocida y tibias), y el bombo (instrumento de percusión utilizado en el folklore nacional realizado en una sola pieza de madera de ceibo ahuecada). Danzas Tradicionales Las danzas de la región son la zamba (de ritmo lento y melancólico, donde intervienen los pañuelos de la pareja que la baila, y el hombre y la mujer destacan su galanteo); el malambo santiagueño (solo la baila el hombre, destacándose su destreza en el zapateo); el gato (de ritmo alegre, homenajeando las cosas buenas de la vida, donde el hombre zapatea y la mujer lo ronda admirando su destreza); el escondido (semejante al gato pero que en un momento el hombre se esconde para que al mujer baile sola); la chacarera (propia de la cultura gauchesca que tiene un ritmo pegadizo, con letras de dolor y desgracia que transparentaban el carácter de los gauchos cuando se sentían melancólicos); las cuecas, los bailecitos y los carnavalitos (bailes en grupo típicos de la región, que utilizan en su acompañamiento instrumentos indígenas como el charango, tambores y las flautas).
+
+				</p>
+					<a class="lkSec" href="musicos.html">
+						<div>
+							<img class="imagesA" src="images/Artistas/Musicos/rali.jpg" alt="">
+							<img class="imagesA" src="images/Artistas/Musicos/carabaja_music.jpg" alt="">
+							<img class="imagesA" src="images/Artistas/Musicos/manseros.jpg" alt="">
+							<h3>Hacer click para concocer más</h3>
+						</div>
+					</a>
+				</div>
+				
+			</article>
+		</section>
+		
+		<section id="secPintura" data-type="parallax_section" data-speed="10">
+			<article>
+				<div class="geek">
+					<h2>PINTURA</h2>
+					<p>
+					La Pintura es
+
+				</p>
+					<a class="lkSec" href="artistas/pintores.html">
+						<div>
+							<img class="imagesA" src="images/Artistas/Pintores/ramonGomez.jpg" alt="">
+							<img class="imagesA" src="images/Artistas/Pintores/ricardo-turino/paraIndex.jpg" alt="">
+							<img class="imagesA" src="images/Artistas/Pintores/Hugo-Arganaraz/paraIndex.jpg" alt="">
+						</div>
+						<h3>Hacer click para concocer más</h3>
+					</a>
+				</div>
+			</article>
+		</section>
+		<section id="secEscritores" data-type="parallax_section" data-speed="10">
+			<article>
+				<div class="geek">
+					<h2>LITERATURA</h2>
+					<p>
+					La Literatura Santiagueña
+
+				</p>
+					<a class="lkSec" href="literatura.html">
+						<div>
+							<img class="imagesA" src="images/literatura/alfonsoindex.jpg" alt="">
+						</div>
+						<h3>Hacer click para concocer más</h3>
+					</a>
+				</div>
+				
+			</article>
+		</section>
+		
+	</section>
+	
+	
+</body>
+</html>

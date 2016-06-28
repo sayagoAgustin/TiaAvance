@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+<title>Documento sin t&iacute;tulo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+</head>
+
+<body onload="MM_CheckFlashVersion('7,0,0,0','El contenido de la p&aacute;gina requiere una nueva versi&oacute;n del reproductor Macromedia Flash.  Desea descargarlo ahora?');">
+<div id="head">
+	<div id="secMusica">
+		<img src="images/Banner/logo.png" alt="Direcci&oacute;n de Cultura" class="logo"/>
+		<h2>Musicos</h2>
+	</div>
+
+</div>
+
+
+<div id="body">
+
+	<div>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="elmuseo.html">El Museo</a></li>
+			<li><a href="indice.html">Indice</a></li>
+			<li><a href="musicos.html">Música</a></li>
+			<li><a href="artistas/pintores.html">Pitura</a></li>
+			<li><a href="literatura.html">Literatura</a></li>
+			<li><a href="teatro25.html">Teatro</a></li>
+			<li><a href="forum.html">Forum</a></li>
+		</ul>
+	</div>
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50" class="indice">L</td>
+    <td width="350"><div id="op2" class="div-img">
+			<a href="los-manseros.html"><img src="images/Artistas/Musicos/losmanseros.jpg" width="315" height="150" class="img" title="Los Manseros"/></a>
+	</div></td>
+    <td width="350"><div id="op2" class="div-img">
+			<a href="los-carabajal.html"><img src="images/Artistas/Musicos/loscarabajal.jpg" width="315" height="150" class="img" title="Los carabajal"/></a>
+	</div></td>
+  </tr>
+</table>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td width="50" class="indice">R</td>
+    <td width="350"><div id="op2" class="div-img">
+			<a href="raly-barrionuevo.html"><img src="images/Artistas/Musicos/raly.jpg" width="315" height="150" border="0" class="img"  title="Raly Barrionuevo"/></a>
+		</div>
+	</td>
+    <td width="350">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50" class="indice">O</td>
+    <td width="350"><div id="op2" class="div-img">
+			<a href="orellanalucca.html"><img src="images/Artistas/Musicos/orellanalucca.jpg" width="315" height="150" class="img" title="Orellana Lucca"/></a>
+	</div></td>
+    <td width="350">
+	</td>
+  </tr>
+</table>
+
+</div>
+
+<div id="footer">
+		<p class="footer">
+			Subsecretaría de Cultura | Santiago del Estero | Argentina
+		</p>
+	</div>
+</body>
+</html>

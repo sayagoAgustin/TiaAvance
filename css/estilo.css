@@ -1,0 +1,337 @@
+a{
+
+}
+
+a:hover{
+  	color: #472c03;
+ }
+
+body {
+	margin:0 0 0 0;
+	font:Arial, Helvetica, sans-serif;
+}
+
+iframe{
+	 border: none;
+}
+
+h2{
+	color:#472c03;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+ul{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	list-style: none;
+	width:auto;
+	margin: 0;	
+  	padding: 0;
+	overflow: hidden;
+	position:absolute;
+	top:330px;
+	font-weight:bold;
+	margin-left: 29%;
+}
+
+ul li {
+	color:#472c03;
+	width:auto;
+	float: left;
+	background: rgba(255, 255, 255, 0.50);
+	//border-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom: 3px;
+	padding-top: 2px;
+}
+
+ul li:hover{
+	background: rgba(255, 255, 255, 0.90);
+	color:#472c03;
+	text-decoration:none;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	width:auto;
+}
+
+ul li a{
+  	color: #472c03;
+	text-decoration:none;
+	font-size: 1.2em;
+}
+
+
+ul li a:hover{
+  	color: #472c03;
+}
+
+nav{
+	padding: 20px;
+	text-align: center;
+}
+////////////////////////////////////////////////////IDS//////////////////////////////////////////////////////
+
+#body{
+	float:left;
+	background:#fff;
+	width: 62%;
+	height:auto;
+	max-width:950px;
+	padding-top:15px;
+	padding-left:5px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-bottom:3%;
+	text-align: center;	
+}
+
+#cuadroTexto {
+margin:0 0 25px;
+overflow:hidden;
+padding:20px;
+background-color: lightsteelblue;
+border:1px solid #afcde3;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+font-family: arial, sans-serif;
+color: white;
+font-weight: bold;
+
+}
+
+#footer{
+	//background-color:#a18a67;
+	float:left;
+	width:100%;
+	height:50%;
+	max-height: 130px;
+}
+
+#head{
+	background-color:#fff;
+	margin-left:0px;
+	width:100%;
+	height:50%;
+	max-height:350px;
+	//margin-bottom:1%;
+	float:left;
+}
+
+#secMusica{
+	background: url(../images/Artistas/Musicos/musica-bombo.jpg) 50% 0 no-repeat fixed;
+}
+
+#secPintura{
+	background: url(../images/Index/pintura2.jpg) 50% 0 no-repeat fixed;
+}
+
+#secForm{
+	background: url(../images/forum/forum01.jpg) 50% 0 no-repeat fixed;
+}
+
+#secTeatro{
+	background: url(../images/Teatro25/teatrobann.jpg) 50% 0 no-repeat fixed;
+}
+
+#secEscritores{
+	background: url(../images/Index/libro2.jpg) 50% 0 no-repeat fixed;
+	
+}
+
+#secElmuseo{
+	background: url(../images/Museo/banner.jpg) 50% 0 no-repeat fixed;
+	
+}
+
+#secMusica, #secPintura, #secForm, #secTeatro, #secEscritores, #secElmuseo{
+	min-height: 350px;
+	height: 215px;
+	margin: 0px auto;
+	width: 100%;
+	text-align: center;
+}
+
+#op{
+	width:150px;
+	height: 150px;
+	margin-right:1%;
+	margin-left: 1%;
+	margin-bottom: 3%;
+	float: left;
+}
+
+#op2{
+	width:315px;
+	height:150px;
+	margin-right:1%;
+	margin-left: 1%;
+	margin-bottom:3%;
+	
+}
+
+#text{
+	width:50%;
+	height:auto;
+	background-color:#fff;
+	margin-left: 25%;
+	float: left;
+}
+
+#text h2{
+	font-size: 2em;
+}
+
+#tituloForum {
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu{
+	text-align: center;
+}
+
+#video{
+	width:300px;
+	height:auto;
+	background-color:#fff;
+	margin-right:1%;
+	margin-left: 1%;
+	margin-bottom: 3%;
+	float: left;
+}
+
+
+////////////////////////////////////////////////////CLASES//////////////////////////////////////////////////////
+
+
+.logo{
+
+	width: 200px;
+  	height: auto;
+}
+
+
+.cont{
+	max-width:830px;
+	//background-color: #ccc;
+	//display:block;
+}
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.div-img {
+  display: block;
+ 	margin-left: auto;
+  margin-right: auto;
+}
+
+
+.div-img .img {
+  //-webkit-border-radius: 10px;
+  //-moz-border-radius: 10px;
+  //border-radius: 10px;
+  //display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+   box-shadow: -5px 5px 8px #a5a4a4;
+}
+
+.div-img:hover .img {
+  transform: scale(0.90);
+  -ms-transform: scale(0.90);
+  -moz-transform: scale(0.90);
+  -webkit-transform: scale(0.90);
+  -o-transform: scale(0.90);
+}
+
+
+
+.footer{
+	margin-top:10px;
+	text-align:center;
+	color: #472c03;
+	font-family: sans-serif;
+	font-size: medium;
+}
+
+
+.indice{
+	margin-left:1%;
+	font-size: larger;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #472c03;
+	text-align:center;
+	vertical-align: top;
+}
+
+
+.p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#472c03;
+	text-align:justify;
+}
+
+
+
+.imgP{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/* ---------------------- Mi codigo -----------------------------------------*/
+
+.poema{
+padding-right: 50px;
+padding-left:50px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+padding-bottom: 50px;
+}
+
+
+
+.cuadroTexto {
+margin:0 0 25px;
+overflow:hidden;
+padding:20px;
+border-radius: 5px;
+
+font-family: arial, sans-serif;
+color: black;
+font-weight: bold;
+
+}
+
+#tituloForum {
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ---------------------- Mi codigo -----------------------------------------*/
+
+.tablacentro{
+	text-align: justify;
+	margin-left: 18%;
+}
